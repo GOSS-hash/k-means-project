@@ -8,18 +8,6 @@
 
 ## 🌱  How to start this project
 
-Follow the instructions below:
-
-1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
-
-## 🚛 How to deliver this project
-
-Once you have finished solving the exercises, be sure to commit your changes, push to your repository and go to 4Geeks.com to upload the repository link.
-
-## 📝 Instructions
-
 ### House grouping system
 
 We want to be able to classify houses according to their region and median income. To do this, we will use the famous `California Housing` dataset. It was constructed using data from the 1990 California census. It contains one row per census block group. A block group is the smallest geographic unit for which US Census data is published.
@@ -43,9 +31,3 @@ Now use the trained model with the test set and add the points to the above plot
 Now that K-Means has returned a categorization (clustering) of the points for the training and test sets, study which model might be most useful and train it. Get the statistics and describe what you see.
 
 This flow is very common when we have unlabeled data: use an unsupervised learning model to label it automatically and then a supervised learning model.
-
-#### Step 5: Save the models
-
-Store both models in the corresponding folder.
-
-> NOTA: Solution: https://github.com/4GeeksAcademy/k-means-project-tutorial/blob/main/solution.ipynb
